@@ -1,0 +1,30 @@
+.home
+{
+	background-image: url('../images/bg.jpg');
+	width: 100%; 
+	overflow: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  color:white;
+  letter-spacing: 2px;
+  padding:  1%;
+  height: 50%;
+}
+
+.fijo-nets {
+right: 0;
+bottom: 0%;
+position: fixed;
+}
